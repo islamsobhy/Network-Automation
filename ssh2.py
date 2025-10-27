@@ -37,7 +37,7 @@ ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 # 3. Establish SSH connection to the device
 # -------------------------------------------------------------
 ssh.connect(
-    host,
+    hostname=host,
     username=username,
     password=password,
     look_for_keys=False,   # Prevent searching for local SSH keys
