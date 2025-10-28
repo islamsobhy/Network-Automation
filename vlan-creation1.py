@@ -4,8 +4,8 @@ VLAN Configuration via SSH using Paramiko
 This script connects to a Cisco network device over SSH and
 creates multiple VLANs one by one.
 
-Author: Your Name
-Date: YYYY-MM-DD
+Author: Islam Farraj
+Date: 2025-10-28
 Description:
     Demonstrates how to log in to a network device using Paramiko,
     enter configuration mode, and send multiple configuration
