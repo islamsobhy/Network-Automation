@@ -15,9 +15,9 @@ password = getpass.getpass("Enter your SSH password: ")
 
 # --- Step 2: Open and read the device list ---
 # The file 'switches.txt' should have one IP address per line, like:
-# 10.32.94.4
-# 10.32.94.5
-# 10.32.94.6
+# 1.2.3.4
+# 1.2.3.5
+# 1.2.3.6
 with open("switches.txt") as file:
     for line in file:
         host = line.strip()  # Removes spaces and newline characters
